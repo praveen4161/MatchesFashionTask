@@ -3,7 +3,6 @@ package com.matchesfashion.papi.services.impl;
 import com.matchesfashion.papi.domain.Product;
 import com.matchesfashion.papi.repository.ProductRepository;
 import com.matchesfashion.papi.services.ProductService;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

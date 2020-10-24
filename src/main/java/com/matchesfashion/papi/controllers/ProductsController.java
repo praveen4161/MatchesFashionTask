@@ -1,10 +1,8 @@
 package com.matchesfashion.papi.controllers;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.matchesfashion.papi.domain.Product;
 import com.matchesfashion.papi.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.util.CollectionUtils;
@@ -12,8 +10,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.annotation.Resource;
-import java.util.Collection;
 import java.util.List;
 
 @RestController
