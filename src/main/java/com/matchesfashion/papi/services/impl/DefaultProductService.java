@@ -4,10 +4,11 @@ import com.matchesfashion.papi.domain.Product;
 import com.matchesfashion.papi.repository.ProductRepository;
 import com.matchesfashion.papi.services.ProductService;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Component("productService")
+@Service
 public class DefaultProductService implements ProductService
 {
     private final ProductRepository productRepository;

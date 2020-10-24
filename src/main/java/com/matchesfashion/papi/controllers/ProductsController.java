@@ -19,10 +19,8 @@ import java.util.List;
 @RestController
 public class ProductsController
 {
-    @Resource(name = "productService")
+    @Autowired
     private ProductService productService;
-
-    private ObjectMapper objectMapper;
 
     @GetMapping(value = "/products/{price}" , produces = "application/json")
     public ResponseEntity getProducts(@PathVariable int price)
